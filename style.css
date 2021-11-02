@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(237, 209, 99, 0.39);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.nav-pic img {
+    width: 70px;
+    height: 50px;
+}
+
+.nav-pic {
+    margin-left: 50px;
+}
+
+.navContent {
+    margin-right: 20px;
+}
+
+.navContent ul li {
+    display: inline-block;
+    margin-right: 35px;
+    text-decoration: none;
+}
+
+.search-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    height: 70px;
+}
+
+.input-area {
+    width: 240px;
+    height: 38px;
+    outline: 0;
+    border: 0;
+    background-color: rgb(235, 232, 232);
+}
+
+.search-button {
+    width: 55px;
+    height: 38px;
+    outline: 0;
+    border: 0;
+    background-color: rgba(30, 7, 238, 0.514);
+}
+
+#mealDisplay {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.meal-item {
+    width: 250px;
+    height: 270px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    background-color: rgba(205, 20, 241, 0.438);
+}
+
+.meal-item.meal-img {
+    width: 100%;
+    height: 230px;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.meal-img img {
+    width: 100%;
+    height: 230px;
+    border: 0;
+    border-radius: 9px 9px 0px 0px;
+    background-position: center;
+    /* overflow: hidden; */
+}
+
+.meal-item.meal-name {
+    /* margin-bottom: 0; */
+    height: 40px;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+
+.mealName {
+    font-size: 25px;
+}
+
+.meal-name h3 {
+    margin-top: 3px;
+    margin-bottom: 0;
+    height: 100%;
+    text-align: center;
+}
+
+#ingredientsDisplay {
+    margin-bottom: 50px;
+}
+
+.ingredients-item {
+    width: 270px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.ingredients-img img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+.error{
+    font-size: 30px;
+    font-weight: 700;
+    text-align:center;
+    color: brown;
+}
